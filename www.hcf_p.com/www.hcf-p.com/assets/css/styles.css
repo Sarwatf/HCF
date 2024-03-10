@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background: rgb(23,4,4);
+background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 47%, rgbrgb(0, 0, 0)0%); */
+}
+
+#carouselExampleInterval {
+    height: 60vh;
+    overflow: hidden;
+}
+
+#carouselExampleInterval .carousel-inner {
+    height: 100%;
+}
+
+#carouselExampleInterval .carousel-inner .carousel-item {
+    height: 100%;
+}
+
+#carouselExampleInterval .carousel-inner img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.block {
+    background: rgb(62, 2, 2);
+    background: linear-gradient(0deg, rgb(58, 57, 57) 0%, rgba(0, 0, 0, 1) 100%);
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    transition: transform 0.3s, font-size 0.3s;
+    cursor: pointer;
+    border-radius: 15px;
+    /* Rounded corners */
+}
+
+.block:hover {
+    transform: scale(1.2);
+    font-size: 25px;
+}
+
+.square {
+    padding: 50px;
+}
+
+#qbootstrap-donation,
+#qbootstrap-counter,
+.qbootstrap-bg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* Add custom styles as needed */
+
+.scrollable-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* Adjust the card width as needed */
+
+.scrollable-card {
+    width: 300px;
+    display: inline-block;
+    margin-right: 10px;
+    /* Add margin between cards */
+}
+
+.event-container {
+    transition: transform 0.3s, font-size 0.3s;
+    cursor: pointer;
+}
+
+.event-container:hover {
+    transform: scale(1.05);
+}
+
+.org-person {
+    transition: transform 0.3s, font-size 0.3s;
+    cursor: pointer;
+}
+
+.org-person:hover {
+    transform: scale(1.05);
+}
+
+.chapter-item {
+    transition: transform 0.3s, font-size 0.3s;
+    cursor: pointer;
+}
+
+.chapter-item:hover {
+    transform: scale(1.05);
+}
+
+.left-bottomright-radius {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.core-project-item:hover {
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+    color: rgb(190, 188, 188);
+}
+
+.gallary_image {
+    transition: transform 0.3s, font-size 0.3s;
+    cursor: pointer;
+}
+
+.gallary_image:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+    #OptionsContainer {
+        margin-top: -50px;
+        position: absolute;
+        left: 6%;
+    }
+    #donatebox {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .personimg {
+        max-width: 100px;
+    }
+}
